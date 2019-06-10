@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="Poke">
+	<head>
+		<script src="lib/jquery.js"></script>
+		<meta charset="UTF-8">
+		<title>NPokedex</title> 
+			<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="lib/boo/css/bootstrap.css">
+	    <style type="text/css">
+	    .Estilo2 {font-weight: bold}
+        .Estilo3 {font-size: 24px}
+        </style>
+</head>
+	<body ng-controller="LisPoke">
+
+		<div class="container pi">
+		  <div class="row">
+      <div class="col-md-12" >
+				<h6 class="Estilo1 Estilo3"><strong>Npokedex</strong></h6>
+				<h6 class="Estilo1"><span class="Estilo2"><a class="alert-primary" href="ind.html"><a class="alert-primary" href="loginvista.html">Iniciar Sesión </a><p><a class="alert-primary"> Registrate</a></p>
+				</span></h6>
+      </div>
+			</div>
+	</div>
+<div class="container">
+			<div class="row"> 
+				<div class="col-md-3 text-center col-sm-4" ng-repeat="L in Lis"><br>
+					<div><img class="gat"  src="{{L.data.sprites.front_default}}"></div>
+					<div  class="nameP">{{L.data.name}}</div>
+			  </div>
+			</div>
+		</div>
+		
+		<script src="lib/angular.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

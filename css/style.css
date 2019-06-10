@@ -1,0 +1,54 @@
+body {
+	background: url(../images/f.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.Estilo1 {
+background:#00CCCC;
+}
+
+.pi {
+	background-color:#0033CC;
+	text-align: center;
+	height: 70px;
+	flex-direction: column;
+	
+}
+.nameP {
+  border: 3px solid black;
+  padding: 5px;
+  background-color:#339999;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-family: 'Coiny', cursive;
+  font-size: 25px;
+  box-shadow: 3px 2px 5px #54585C;
+  border-radius:26%;
+}
+.gat {
+border: 3px solid black;
+  padding: 5px;
+    height:200px;
+	background:#FFCC99;
+	 margin-bottom: 20px;
+  text-transform: capitalize;
+  font-family: 'Coiny', cursive;
+  font-size: 25px;
+  box-shadow: 3px 2px 5px #54585C;
+  border-radius:26%;
+}
+.gat:hover {
+    height:200px;
+}
+#boton {
+background-color:#00FFFF;
+color:#A0A0A4;
+width: 100px;
+padding: 20px;
+border: 1px solid #000;
+border-radius: 5px;
+}
+ 
+
+
